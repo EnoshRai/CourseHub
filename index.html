@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourseHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="left_nav">
+            <div class="logo">
+                <a href=""><img src="logo.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="middle_nav">
+            <ul>
+                <li> <a href="">Home</a> </li>
+                <li> <a href="">Courses</a></li>
+                <li> <a href="">Tutors</a></li>
+                <li> <a href="">Pages</a></li>
+            </ul>
+        </div>
+        <div class="right_nav">
+            <div class="cart">
+                <p>Cart</p>
+            </div>
+            <div class="buttons">
+                <a href="">Sign up</a>
+            </div>
+        </div>
+    </nav>
+    <!--     cart section -->
+    <div class="cart_section">
+        <div class="cart_display">
+            <div class="top">
+                <p>Your cart</p>
+                <i class="fa-solid fa-x" id="close_cart"></i>
+            </div>
+            <div class="cart_content">
+                <img src="cart.svg" alt="">
+                <p style="color: #ff696b;font-size: 1.5rem; font-weight: bold;">Your cart is empty</p>
+                <p style="font-weight: bold;">Please check out all the available courses and buy some courses that
+                    fulfill your needs.</p>
+                <div class="buttons">
+                    <a href="">Shop now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_text">
+        <p id="first_par">Lighting the
+            path to <span style="color: #ff6c6e;">future</span> success</p>
+        <p id="second_par">Where students are encouraged to reach their full potential through rigorous coursework,
+            innovative research,
+            and a supportive learning environment.</p>
+    </div>
+    <div class="links">
+        <div class="buttons">
+            <a href="">Start learning today</a>
+        </div>
+        <div class="explore_buttons">
+            <a href="">Explore Programs</a>
+        </div>
+    </div>
+    <div class="another_section">
+        <div class="statistics">
+            <p>Key statistics</p>
+            <p class="number"><span
+                    style="font-size: 2rem; font-weight: bold; color: #759bff; margin-right: 10px;">500+</span>
+                Total courses</p>
+            <p class="number"><span
+                    style="font-size: 2rem; font-weight: bold; color: #48974d; margin-right: 10px;">115</span>
+                Experts tutors</p>
+        </div>
+        <div class="image_section">
+            <img src="another_section_image.avif" alt="">
+            <img src="another_section_image.avif" alt="">
+            <img src="another_section_image.avif" alt="">
+        </div>
+    </div>
+    <div class="categories">
+        <p id="first_par">Explore diverse learning paths within our course
+            <span style="color: #ff6c6e;"> categories</span>
+        </p>
+        <p id="second_par">Our carefully curated course categories are designed to help you explore different fields,
+            gain new skills,
+            and advance your knowledge.</p>
+        <div class="explore_categories">
+            <a href="">
+                <i class="fa-solid fa-computer"></i>
+                Computer Science
+            </a>
+            <a href="">
+                <i class="fa-solid fa-gear"></i>
+                Programming languages </a>
+            <a href="">
+                <i class="fa-brands fa-uncharted"></i>
+                Software development</a>
+            <a href="">
+                <i class="fa-brands fa-webflow"></i>
+                Web development</a>
+            <a href="">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                Data science & analytics </a>
+            <a href="">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                Mobile app development</a>
+            <a href="">
+                <i class="fa-solid fa-database"></i>
+                Database management</a>
+            <a href="">Explore all categories</a>
+        </div>
+    </div>
+    <div class="more_courses">
+        <div class="more_courses_top">
+            <p id="first_par">Most <span style="color: #ff6c6e;">popular</span> courses</p>
+            <div class="buttons">
+                <a href="">View Courses</a>
+            </div>
+        </div>
+        <div class="more_courses_body">
+            <div class="courses">
+                <a href="">
+                    <div class="course_pic">
+                        <img src="courses/web.avif" alt="">
+                    </div>
+                </a>
+                <div class="description">
+                    <div class="left_desc">
+                        <p class="level">Begineer</p>
+                    </div>
+                    <div class="right_desc">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <p>50 Videos</p>
+                        <i class="fa-solid fa-clock"></i>
+                        <p>7:50 Hours</p>
+                    </div>
+                </div>
+                <a href="">
+                    <p id="course_title">Web development with PHP and MySQL</p>
+                </a>
+                <div class="price">
+                    <p id="new_price">$ 199.49 USD </p>
+                    <p id="old_price">$ 299.00 USD</p>
+                </div>
+                <hr>
+                <a href="">
+                    <div class="author">
+                        <img src="courses/billy.avif" alt="">
+                        <p> Billy Vasquez</p>
+                    </div>
+                </a>
+            </div>
+            <div class="courses">
+                <a href="">
+                    <div class="course_pic">
+                        <img src="courses/digital_marketing.avif" alt="">
+                    </div>
+                </a>
+                <div class="description">
+                    <div class="left_desc">
+                        <p class="level">Advanced</p>
+                    </div>
+                    <div class="right_desc">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <p>36 Videos</p>
+                        <i class="fa-solid fa-clock"></i>
+                        <p>5:30 Hours</p>
+                    </div>
+                </div>
+                <a href="">
+                    <p id="course_title">Digital marketing essentials</p>
+                </a>
+                <div class="price">
+                    <p id="new_price">$ 149.00 USD </p>
+                    <p id="old_price">$ 199.00 USD</p>
+                </div>
+                <hr>
+                <a href="">
+                    <div class="author">
+                        <img src="courses/dennis.avif" alt="">
+                        <p> Dennis Barrett</p>
+                    </div>
+                </a>
+            </div>
+            <div class="courses">
+                <a href="">
+                    <div class="course_pic">
+                        <img src="courses/project_management.avif" alt="">
+                    </div>
+                </a>
+                <div class="description">
+                    <div class="left_desc">
+                        <p class="level">All level</p>
+                    </div>
+                    <div class="right_desc">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <p>42 Videos</p>
+                        <i class="fa-solid fa-clock"></i>
+                        <p>7:20 Hours</p>
+                    </div>
+                </div>
+                <a href="">
+                    <p id="course_title">Project management fundamentals</p>
+                </a>
+                <div class="price">
+                    <p id="new_price">$ 249.99 USD </p>
+                    <p id="old_price">$ 349.99 USD</p>
+                </div>
+                <hr>
+                <a href="">
+                    <div class="author">
+                        <img src="courses/jacqueline.avif" alt="">
+                        <p> Jacqueline Miller</p>
+                    </div>
+                </a>
+            </div>
+            <div class="courses">
+                <a href="">
+                    <div class="course_pic">
+                        <img src="courses/financial.avif" alt="">
+                    </div>
+                </a>
+                <div class="description">
+                    <div class="left_desc">
+                        <p class="level">Intermediate</p>
+                    </div>
+                    <div class="right_desc">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <p>34 Videos</p>
+                        <i class="fa-solid fa-clock"></i>
+                        <p>3:00 Hours</p>
+                    </div>
+                </div>
+                <a href="">
+                    <p id="course_title">Financial accounting basics</p>
+                </a>
+                <div class="price">
+                    <p id="new_price">$ 169 USD </p>
+                    <p id="old_price">$ 200 USD</p>
+                </div>
+                <hr>
+                <a href="">
+                    <div class="author">
+                        <img src="courses/joan.avif" alt="">
+                        <p> Joan Wallace</p>
+                    </div>
+                </a>
+            </div>
+            <div class="courses">
+                <a href="">
+                    <div class="course_pic">
+                        <img src="courses/modern_web.avif" alt="">
+                    </div>
+                </a>
+                <div class="description">
+                    <div class="left_desc">
+                        <p class="level">Begineer</p>
+                    </div>
+                    <div class="right_desc">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <p> 20 Videos</p>
+                        <i class="fa-solid fa-clock"></i>
+                        <p> 3:10 Hours</p>
+                    </div>
+                </div>
+                <a href="">
+                    <p id="course_title">Modern web development with JAMstack</p>
+                </a>
+                <div class="price">
+                    <p id="new_price">$ 159.00 USD </p>
+                    <p id="old_price">$ 199.00 USD</p>
+                </div>
+                <hr>
+                <a href="">
+                    <div class="author">
+                        <img src="courses/judy.avif" alt="">
+                        <p> Judy Nguyen</p>
+                    </div>
+                </a>
+            </div>
+            <div class="courses">
+                <a href="">
+                    <div class="course_pic">
+                        <img src="courses/cross_platform.avif" alt="">
+                    </div>
+                </a>
+                <div class="description">
+                    <div class="left_desc">
+                        <p class="level">Advanced</p>
+                    </div>
+                    <div class="right_desc">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <p>65 Videos</p>
+                        <i class="fa-solid fa-clock"></i>
+                        <p>10:50 Hours</p>
+                    </div>
+                </div>
+                <a href="">
+                    <p id="course_title">Cross-Platform App development with flutter</p>
+                </a>
+                <div class="price">
+                    <p id="new_price">$ 449.00 USD </p>
+                    <p id="old_price">$ 550.00 USD</p>
+                </div>
+                <hr>
+                <a href="">
+                    <div class="author">
+                        <img src="courses/lori.avif" alt="">
+                        <p> Lori Stevens</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="deliver">
+        <p id="deliver_title"> How we<span style="color: #ff6c6e;"> deliver</span> excellence </p>
+        <div class="steps_collection">
+            <div class="steps step1">
+                <p id="step_number">Step 1</p>
+                <div class="step_description">
+                    <h2>Explore categories</h2>
+                    <p>Browse through our various course categories to find the area that interests you the most.</p>
+                </div>
+            </div>
+            <div class="steps step2">
+                <p id="step_number">Step2</p>
+                <div class="step_description">
+                    <h2>Select your course</h2>
+                    <p>Our course listings include all the details you need to make an informed decision.</p>
+                </div>
+            </div>
+            <div class="steps step3">
+                <p id="step_number">Step2</p>
+                <div class="step_description">
+                    <h2>Enroll today</h2>
+                    <p>Sign up for your chosen course directly through our website.</p>
+                </div>
+            </div>
+            <div class="steps step4">
+                <p id="step_number">Step2</p>
+                <div class="step_description">
+                    <h2>Start learning</h2>
+                    <p>Begin your educational journey with access to high-quality course materials, engaging content,
+                        and
+                        support from instructors and peers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="coursehub.js"></script>
+</body>
+
+</html>
